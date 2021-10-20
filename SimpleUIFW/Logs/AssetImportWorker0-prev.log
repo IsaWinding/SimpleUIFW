@@ -1,0 +1,319 @@
+Using pre-set license
+Built from '2021.1/china_unity/release' branch; Version is '2021.1.23f1c1 (459f52f28315) revision 4562770'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 16207 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.23f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/PrivateSpace/UnitySpace/GitHub/SimpleUIFW
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59274
+Successfully changed project path to: C:/PrivateSpace/UnitySpace/GitHub/SimpleUIFW
+C:/PrivateSpace/UnitySpace/GitHub/SimpleUIFW
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.23f1c1 (459f52f28315)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.23f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/PrivateSpace/UnitySpace/GitHub/SimpleUIFW/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     8103 MB
+    Driver:   27.20.100.8935
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.23f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001460 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\PrivateSpace\UnitySpace\GitHub\SimpleUIFW\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\PrivateSpace\UnitySpace\GitHub\SimpleUIFW\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1119ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2949 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.8 MB.
+System memory in use after: 106.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 3.063100 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.131200 ms MarkObjects: 2.664400 ms  DeleteObjects: 0.058500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UIFW
+  artifactKey: Guid(75420d108720c5f4e9478552e0b73ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW using Guid(75420d108720c5f4e9478552e0b73ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0e555c7f32f4a3ba6de90052d19072') in 0.009061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.795406 seconds.
+  path: Assets/UIFW/Scripts
+  artifactKey: Guid(e233696b1f3b54e419a2c6bcdcf42b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts using Guid(e233696b1f3b54e419a2c6bcdcf42b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04532f9ce5b0d814a38ef9e3b7472441') in 0.008133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 416.833671 seconds.
+  path: Assets/UIFW/Scripts/Policys
+  artifactKey: Guid(9f4ca996a5dd3364fac2391009e6ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Policys using Guid(9f4ca996a5dd3364fac2391009e6ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abc0fe3dd4405fbcc2e12d2ac31f38f') in 0.008594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.561202 seconds.
+  path: Assets/UIFW/Scripts/Ctrls
+  artifactKey: Guid(3afe938f2aa2b6449ac34275fc02d325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Ctrls using Guid(3afe938f2aa2b6449ac34275fc02d325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5312124123cbd3149f0384fa1717617b') in 0.008705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.334843 seconds.
+  path: Assets/UIFW/Scripts/Core
+  artifactKey: Guid(b004c2d4cdea5cc428a8ed9715308bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core using Guid(b004c2d4cdea5cc428a8ed9715308bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd98409093f469992d3a2adaa96f3425') in 0.007764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.454931 seconds.
+  path: Assets/UIFW/Scripts/Core/Ctrls/UICtrlBase.cs
+  artifactKey: Guid(9ab98a2ecb5108149818f5cddfe8d73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/Ctrls/UICtrlBase.cs using Guid(9ab98a2ecb5108149818f5cddfe8d73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da998a6b72309931cce12afb7482811') in 0.042496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.510607 seconds.
+  path: Assets/UIFW/Scripts/Core/Ctrls/UICtrlBase.cs
+  artifactKey: Guid(9ab98a2ecb5108149818f5cddfe8d73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/Ctrls/UICtrlBase.cs using Guid(9ab98a2ecb5108149818f5cddfe8d73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34712ed6c0c6e1fa0453223f9afc4c96') in 0.002063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.095178 seconds.
+  path: Assets/UIFW/Scripts/Core/Policys/UICtrlPolicy.cs
+  artifactKey: Guid(6fb33f8e6e6905a4fa5bd0919401bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/Policys/UICtrlPolicy.cs using Guid(6fb33f8e6e6905a4fa5bd0919401bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6087dc4951437c0113b56c9d76e3799') in 0.008570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.395763 seconds.
+  path: Assets/UIFW/Scripts/Core/Policys/UICtrlPolicy.cs
+  artifactKey: Guid(6fb33f8e6e6905a4fa5bd0919401bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/Policys/UICtrlPolicy.cs using Guid(6fb33f8e6e6905a4fa5bd0919401bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609b8ebb23b27218376e6e41139e1677') in 0.003462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.897228 seconds.
+  path: Assets/UIFW/Scripts/Core/View
+  artifactKey: Guid(6a4d303db3ccc334dbb156d7c6412f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/View using Guid(6a4d303db3ccc334dbb156d7c6412f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8219301a32385038e56a289de9245b5') in 0.008770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.432470 seconds.
+  path: Assets/UIFW/Scripts/Core/View/UIBase.cs
+  artifactKey: Guid(e60e6adcb02bdaa48b9a2382ebd51e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/View/UIBase.cs using Guid(e60e6adcb02bdaa48b9a2382ebd51e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f34c85bc702601563da6d90ec11af0c') in 0.008748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.564696 seconds.
+  path: Assets/UIFW/Scripts/Core/View/UIBase.cs
+  artifactKey: Guid(e60e6adcb02bdaa48b9a2382ebd51e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/View/UIBase.cs using Guid(e60e6adcb02bdaa48b9a2382ebd51e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c656f6004980651f2b351bb5e9e24d0') in 0.002140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.981985 seconds.
+  path: Assets/UIFW/Scripts/Core/UICtrlManager.cs
+  artifactKey: Guid(9779d0da1b2cd3443b38ed86a5c6f704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/UICtrlManager.cs using Guid(9779d0da1b2cd3443b38ed86a5c6f704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8e055bdd08ec3a3fceedcbac239dde') in 0.008787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.140796 seconds.
+  path: Assets/UIFW/Scripts/Core/UICtrlManager.cs
+  artifactKey: Guid(9779d0da1b2cd3443b38ed86a5c6f704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/Scripts/Core/UICtrlManager.cs using Guid(9779d0da1b2cd3443b38ed86a5c6f704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf10946779f49fc49d6c7dfd3404ec5') in 0.006068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.340955 seconds.
+  path: Assets/UIFW/UI/Exts
+  artifactKey: Guid(fe33875c86fda534a94911cca3d33d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts using Guid(fe33875c86fda534a94911cca3d33d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255d7feebf3b5fa478571f05432560e2') in 0.009888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.307691 seconds.
+  path: Assets/UIFW/UI/Exts/Ctrls
+  artifactKey: Guid(9c80635f48229474b8bbd632bda0f53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Ctrls using Guid(9c80635f48229474b8bbd632bda0f53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e587669cce4844983786f0fc7b4ec1') in 0.004025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.436861 seconds.
+  path: Assets/UIFW/UI/Exts/Views
+  artifactKey: Guid(16cde70548edc0f478097974d83db813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Views using Guid(16cde70548edc0f478097974d83db813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58185dfd515ca9e3be7610b1a091c9d0') in 0.009992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.139241 seconds.
+  path: Assets/UIFW/UI/Exts/Ctrls/LoginPanelCtrl.cs
+  artifactKey: Guid(6cfd4c7f2b6afd8488edcc571557b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Ctrls/LoginPanelCtrl.cs using Guid(6cfd4c7f2b6afd8488edcc571557b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e92d7ee5f994fb6957a7dfd2adf7a1') in 0.009935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.436917 seconds.
+  path: Assets/UIFW/UI/Exts/Ctrls/LoginPanelCtrl.cs
+  artifactKey: Guid(6cfd4c7f2b6afd8488edcc571557b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Ctrls/LoginPanelCtrl.cs using Guid(6cfd4c7f2b6afd8488edcc571557b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf12ce39413eed05ddaee4be21636eb') in 0.004720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.663704 seconds.
+  path: Assets/UIFW/UI/Exts/Views/LoginPanel.cs
+  artifactKey: Guid(9dddb9b25400d37419b51fddc1ac6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Views/LoginPanel.cs using Guid(9dddb9b25400d37419b51fddc1ac6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a72a8f6e1cf84dc10b702955c3031c') in 0.007783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.646001 seconds.
+  path: Assets/UIFW/UI/Exts/Views/LoginPanel.cs
+  artifactKey: Guid(9dddb9b25400d37419b51fddc1ac6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Views/LoginPanel.cs using Guid(9dddb9b25400d37419b51fddc1ac6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bea5162059bb26854b6d536c02e377') in 0.004101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.600716 seconds.
+  path: Assets/UIFW/UI/Exts/Test
+  artifactKey: Guid(94b4178375d959c459ef31c0ef043272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Test using Guid(94b4178375d959c459ef31c0ef043272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de84f26593fd56f24fe4d43caebf599') in 0.009360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.673025 seconds.
+  path: Assets/UIFW/UI/Exts/Test/Test.cs
+  artifactKey: Guid(fc9105191d1d05a49bb37b1dfd795abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/Exts/Test/Test.cs using Guid(fc9105191d1d05a49bb37b1dfd795abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad99630ddd46058be3af4c86c7e2471c') in 0.003782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.447830 seconds.
+  path: Assets/UIFW/UI/New Folder
+  artifactKey: Guid(4fc182b90a3ebeb4aab724ff265914f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/UI/New Folder using Guid(4fc182b90a3ebeb4aab724ff265914f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55d1332b43a379034c45655120a01ef') in 0.009093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.209697 seconds.
+  path: Assets/UIFW/WorkFlow
+  artifactKey: Guid(b622a24cf53ce934bb80787c1f11bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/WorkFlow using Guid(b622a24cf53ce934bb80787c1f11bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a22e929d5b4364750ceaf4c5b032b9') in 0.009084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.846530 seconds.
+  path: Assets/UIFW/WorkFlow/FlowStep.cs
+  artifactKey: Guid(a2720bb6f30a7b84a8b159a28d864ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/WorkFlow/FlowStep.cs using Guid(a2720bb6f30a7b84a8b159a28d864ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8a42c5137cebab6f7bb7a3f8e2cb41') in 0.016497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.458098 seconds.
+  path: Assets/UIFW/WorkFlow/FlowStep.cs
+  artifactKey: Guid(a2720bb6f30a7b84a8b159a28d864ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/WorkFlow/FlowStep.cs using Guid(a2720bb6f30a7b84a8b159a28d864ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f817c49b3cce52d8a1b59e4a2fca3855') in 0.003872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.212855 seconds.
+  path: Assets/UIFW/WorkFlow/Flow.cs
+  artifactKey: Guid(4d235f57e75ba7843a11f6e1f6cbb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/WorkFlow/Flow.cs using Guid(4d235f57e75ba7843a11f6e1f6cbb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dd7517d2f391a50dc56b5e9caf71c9') in 0.009851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.713887 seconds.
+  path: Assets/UIFW/ResSystem
+  artifactKey: Guid(364e3b27903661e489abb76732afd68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/ResSystem using Guid(364e3b27903661e489abb76732afd68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dba6ad8bce805385a6c57be2bb44f3a') in 0.009689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.662038 seconds.
+  path: Assets/UIFW/ResSystem/ResLoader.cs
+  artifactKey: Guid(05a3f9bf06528fa47976fb733b280eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/ResSystem/ResLoader.cs using Guid(05a3f9bf06528fa47976fb733b280eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8f6e033aef44f754fae510cc0063c4') in 0.023226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.407576 seconds.
+  path: Assets/UIFW/ResSystem/ResLoader.cs
+  artifactKey: Guid(05a3f9bf06528fa47976fb733b280eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFW/ResSystem/ResLoader.cs using Guid(05a3f9bf06528fa47976fb733b280eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b738588383d0dca0fa4bd5a7e9db95') in 0.010569 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
