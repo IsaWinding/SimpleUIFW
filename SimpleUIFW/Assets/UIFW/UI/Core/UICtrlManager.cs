@@ -14,4 +14,8 @@ public class UICtrlManager
 	{
 		BasePolicy.CloseTop();
 	}
+	public static void RevokeToHomeBaseUI()
+	{
+		BasePolicy.RevokeToHome();
+	}
 }

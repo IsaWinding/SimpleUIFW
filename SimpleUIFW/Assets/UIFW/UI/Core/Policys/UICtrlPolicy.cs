@@ -44,7 +44,18 @@ public class UICtrlPolicy
 			pFinishCB.Invoke();
 		});
 	}
-	public void CloseTop()
+	public void RevokeToHome()
+	{
+		var totalCount = ctrls.Count;
+		if (totalCount > 1)
+		{ 
+			for(var i = 0;i< totalCount -1;i++)
+			{
+				CloseTop(i == totalCount - 2);
+			}
+		}
+	}
+	public void CloseTop(bool pNeedForward = true)
 	{
 		if (ctrls.Count > 0)
 		{
@@ -57,6 +68,18 @@ public class UICtrlPolicy
 			flow.AddStep(2, (pOnFinish) => {
 				ctrl.UnLoadRes();
 				pOnFinish.Invoke(true);
+			});
+			flow.AddStep(3, (pOnFinish) => {
+				var preCtrl = ctrls[ctrls.Count - 2];
+				if (preCtrl != null && pNeedForward)
+				{
+					preCtrl.OnForward();
+					pOnFinish.Invoke(true);
+				}
+				else
+				{
+					pOnFinish.Invoke(true);
+				}
 			});
 			flow.RunAllStep((pIsFinish) => {
 				ctrls.Remove(ctrl);
