@@ -41,6 +41,8 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: ded20b36ab29a9d4c904077bea5588f3, type: 2}
   - {fileID: 11400000, guid: d3ef2391f6ad0374d81d376ac2f25512, type: 2}
+  - {fileID: 11400000, guid: bf4800ee7d600244a9552ce9d4eb8c75, type: 2}
+  - {fileID: 11400000, guid: d71e4350baa499a43929159d1177f6c0, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -82,6 +84,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Common_Atlas
+    - UIPrefabs
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 681d8b0075dd0db47994a782795e0f15, type: 2}

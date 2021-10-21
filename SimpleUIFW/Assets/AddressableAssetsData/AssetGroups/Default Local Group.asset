@@ -16,15 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: c8c4e1befbc40354b9d5b30b28d3b31e
-  m_SerializeEntries:
-  - m_GUID: 3586993bc884a2f4c9a9a39fa4594121
-    m_Address: Assets/_ABs/UIPrefabs/MainPanel.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: b0a95bc909e9be843b3e3832ef1717e8
-    m_Address: Assets/_ABs/UIPrefabs/LoginPanel.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ac75d4b4008ea904681c9e006a8c201e, type: 2}
   m_SchemaSet:

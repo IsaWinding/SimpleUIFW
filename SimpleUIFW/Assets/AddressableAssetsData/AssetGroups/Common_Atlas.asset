@@ -1,0 +1,390 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Common_Atlas
+  m_EditorClassIdentifier: 
+  m_GroupName: Common_Atlas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 531d4c960ad266e4f83ccd8f2de38d96
+  m_SerializeEntries:
+  - m_GUID: eca0bc02b7906164fb7b088d72a2ad36
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/arrow_bt.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: f151297679db0234f8c263643d25a54e
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_mwsx.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 78b0d2b88a9a7c64eb33c334a2b327ad
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_mwxx_down.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 7c5f0fd33011fc04e8141888bf64a8fb
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_shaixuan_line.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 905a296b93fc54940908359cf27b8008
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_shaixuan_title.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 8f81a99a80eb79a488dacdb20e9805fc
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_shuliang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: c6d19456cd965c4408c8a482ccb4bf69
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_shuxing.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: ab0d4fb89d117d940804908d7654fdf2
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_sxxx1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 037f2da3d22baec45bb891032665c50c
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_sxxx2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 0e07204993fcd5042b75d09291a1e0a2
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_tiaomu.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 6aeb803374120c24995dba94a6a27376
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_tiaomu2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: d4801797e24f0654d93d7a68a72640b0
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_tiaomucao.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: a0a28a2a24e3188468c24b16cad70481
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_tiaomu_biaoti.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 55680807afbbebd4eb2eac5b98a89275
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_tiaomu_zhehei.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 92c7c6671bfd0364bba398364cc9fd54
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_tip.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: d78cf51ec1b4bfa47b493b0e152f244d
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_title_tysj2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 4ec54b60e38a96d4486cf1443dcabef2
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_wy_title_xtc.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 1b3bed3528fd2e4469ae90fa7d94bbe4
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_wy_xtc.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 8ec92f946899a7143ac67b9d13283620
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bg_xxd.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: dea2b23127ecb0e41aef039e8d23bf42
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: d0db8d8910fc70b41afa5d33ca2fd9ea
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_back.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 446ede880e5c6894490670e0888a9fe1
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_big1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 9bfd571f5e4a6aa42859852684ab9b04
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_big1_tex1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 98d27b184ea88a3409c91d607fc62988
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_big2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 24b5482d35e25f844a159b2bef9217b4
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_big3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: c5fb9df7ba1511142b2d81dce23c41c4
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_big4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 2eb22bfdbc9f4894f9b644f3829f4353
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_home.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 6489d488be655364f86912b5115a924b
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_shaixuan_xuanzhong.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: e3e8ecdb998d31f4a810c2e73268ae22
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_sx_d.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 7f73f228130eb4347ad5b0117598b507
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_sx_l.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 34fd20cc2c3b0b343864a546f2dc12ef
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_s_big1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 256ccd6339cfc03488118d5ffa75d164
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_s_big2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 736fe045f4a0db64184892dfd782ead6
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_yeqian1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 59642b2559e7b404bbae32e39c563a15
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_yeqian1_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: a865669cb3194474db1b700c466f2d1a
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_yeqian2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 03bfa64b176de73498301552447f3354
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/bt_yeqian_line.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 4a08420452c52cc4c85857cbdda19a54
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/fenge_bb.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: e138dc98172eb7c4384d3f72a36ab156
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/frame_tx1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 9191dd7c0de8c8644a7fa9bd5616c0da
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/gou.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: b14e08fba7da83545a33fa9682b10d47
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/gou_di.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 0a4d02ba974687548bb4ab2774d5ec08
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/gou_di2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 9de8eb90503dde740a2e71e4595b9864
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_close.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: fe087c8a60ee6074fb4495507800f3ff
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_close2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: b771dd81472039f4c99792aa2ce3124b
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_duigou.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: dd27e9452c89686479db1de0bdcfe709
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_fenxiang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 38858a2ce800fa04090e0d091e480b0f
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_hongdian.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 9047856643904d94b95b95b72775d34c
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_hongdian_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 83965d2f458af4341a713e875fc859d4
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_info.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 72b657305092da44a99845d7fac5d40c
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_laiyuan.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 900a5af5a4462cf44acdb8a2bbbb4d27
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_new_s.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 1bc616585150f0841aa8f84947aeaec2
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_shaixuan.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 2b85bdc4a7367ad49a9d21517d6e9dd9
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_suo_dan.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 879e2733f5c99b54d8cf4b15496eb6aa
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_suo_dan2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 9d94a1dc49c6c514a8b59fd3958f09d6
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_xiangqing.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: ab12b9c90254ac448b46c1bda9864862
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/icon_zhanli.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 09658d563b4eca34689e6c05f2110d4e
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/jiantou_mwxx.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: bbd06827b67c038459639e3e4950df2a
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/mwxx_latiao.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: babb2d0b3294c1a44a092c124e6973dc
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/mwxx_latiao2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: fd84aaba4d6a06341aaf8d2d0ca31ab6
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/pingjia_shurukuang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 90997a47c3dbe414cbdf261c08a3b44c
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/pz_n.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 3d0e50c6bd37ab249a16b61e628f461e
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/pz_nr.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: b2ca488b55c72154aa56c668b088b63c
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/pz_r.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 52b1575140d4f6546916557017b73a70
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/pz_sr.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: fa36a37533268dc43b3869a74ba23a11
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/pz_ssr.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 1a64233f497a70444a7dae058f5e485f
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/suolian.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 0af4f75513890044094571065e4fa1c0
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/suolian1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: fec164e4db0b4a54f89333cc78c0872a
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/suolian2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 4d701451c500c5942ad16d0343f2f43f
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/tongyongkuang_bg1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 179f5398c5cc1b74394944c7ab2113dc
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/tongyongkuang_bg2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 507d01d24052ba143bf63969cf8bc278
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/tongyongtanchuang_yeqianbg.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: a3fef3b59d6587745befb8d29deff187
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/zhuangshi_sxts.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: 85928bd4a7e64844286f524f4d57c960
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/ziyuantiao_bg1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  - m_GUID: b135d1cd61977984b81f3bbe2932d17c
+    m_Address: Assets/_ABs/UIAtlas/Common_Atlas/ziyuantiao_bt.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common_Atlas
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ac75d4b4008ea904681c9e006a8c201e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3907f04f4b7c6d9488b0fe2bc5114eaf, type: 2}
+    - {fileID: 11400000, guid: ef9e442dd1c4e5b43aab2fbac1860b21, type: 2}
