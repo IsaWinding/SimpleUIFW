@@ -46,13 +46,15 @@ public class UICtrlBase
 		Sender.RemoveListener(pKey, pAction);
 	}
 
-	public void ResLoad(System.Action<UnityEngine.GameObject> pCB)//资源加载
+	public void ResLoad(System.Action<UnityEngine.GameObject> pCB,Transform pSubRoot)//资源加载
 	{
 		loadAssetId = AddressLoadManager.LoadAsync(Path,(oGO,pAssetId) => {
 			if (oGO != null){
 				var go = oGO as GameObject;
 				uiBase = go.GetComponent<UIBase>();
 				uiBase.SetSender(Sender);
+				go.transform.SetParent(pSubRoot);
+				go.transform.localPosition = Vector3.zero;
 			}
 			pCB.Invoke(oGO as GameObject);
 		});
@@ -61,8 +63,20 @@ public class UICtrlBase
 	{
 		AddressLoadManager.UnLoadByAssetId(loadAssetId);
 	}
+	public void OnHide()
+	{
+		if (uiBase != null)
+		{
+			uiBase.gameObject.SetActive(false);
+		}
+	}
+	public bool IsHaveUIBase()
+	{
+		return uiBase != null;
+	}
 	public void OnForward()//界面切到前台
 	{
+		uiBase.gameObject.SetActive(true);
 		uiBase.OnForward();
 	}
 	//ctrl 退出

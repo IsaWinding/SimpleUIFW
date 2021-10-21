@@ -6,7 +6,7 @@ public class MainPanelCtrl : UICtrlBase
     protected override void OnInit()
     {
         this.AddEventListener("BtnonClick", (obj) => {
-            UICtrlManager.OpenBaseUI(new MainPanelCtrl(), () => { });
+            UICtrlManager.OpenBaseUI(new MainPanelCtrl(), () => { }, UICtrlManager.DestoryOpen);
         });
         this.AddEventListener("BackBtnonClick", (obj) => {
             UICtrlManager.CloseTopBaseUI();

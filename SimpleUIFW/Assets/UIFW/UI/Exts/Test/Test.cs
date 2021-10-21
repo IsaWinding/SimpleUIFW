@@ -8,6 +8,5 @@ public class Test : MonoBehaviour
     void Start()
     {
         UICtrlManager.OpenBaseUI(new LoginPanelCtrl(), () => { });
-        UICtrlManager.CloseTopBaseUI();
     }
 }

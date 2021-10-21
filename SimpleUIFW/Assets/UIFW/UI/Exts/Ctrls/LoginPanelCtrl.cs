@@ -6,7 +6,7 @@ public class LoginPanelCtrl : UICtrlBase
     protected override void OnInit()
     {
         this.AddEventListener("ClickLoginBtn", (obj) => {
-            UICtrlManager.OpenBaseUI(new MainPanelCtrl(), () => { });
+            UICtrlManager.OpenBaseUI(new MainPanelCtrl(), () => { },UICtrlManager.DiableOpen);
         });
     }
 }
