@@ -6,6 +6,7 @@ public class UICtrlBase
 {
 	protected virtual string Key { get { return "UICtrlBase"; } }//C 的key 数值
 	protected virtual string Path { get { return ""; } }//加载的资源路径
+	private StringKeySender Sender ;
 
 	/// <summary> 打开流程
 	/// OnInit --> OnPost  --> ResLoad --> OnForward
@@ -26,7 +27,24 @@ public class UICtrlBase
 	{
 		data_ = pData;
 	}
-	public virtual void OnInit() { }//初始化
+
+	//初始化
+	protected virtual void OnInit() {
+		
+	}
+	public virtual void DoInit()
+	{
+		Sender = new StringKeySender();
+		OnInit();
+	}
+	public void AddEventListener(string pKey,System.Action<object> pAction)
+    {
+		Sender.AddListener(pKey, pAction);
+	}
+	public void RemoveListener(string pKey, System.Action<object> pAction)
+	{
+		Sender.RemoveListener(pKey, pAction);
+	}
 
 	public void ResLoad(System.Action<UnityEngine.GameObject> pCB)//资源加载
 	{
@@ -34,6 +52,7 @@ public class UICtrlBase
 			if (oGO != null){
 				var go = oGO as GameObject;
 				uiBase = go.GetComponent<UIBase>();
+				uiBase.SetSender(Sender);
 			}
 			pCB.Invoke(oGO as GameObject);
 		});
@@ -46,6 +65,13 @@ public class UICtrlBase
 	{
 		uiBase.OnForward();
 	}
-
-	public virtual void OnDispose() { }//c 退出
+	//ctrl 退出
+	protected virtual void OnDispose() {
+		
+	}
+	public void DoDispose()
+	{
+		Sender.Clear();
+		OnDispose();
+	}
 }

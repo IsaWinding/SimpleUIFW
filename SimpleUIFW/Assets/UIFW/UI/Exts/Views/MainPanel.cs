@@ -11,13 +11,19 @@ public class MainPanel : UIBase
 	public override void OnInit()
 	{
 		_Btn.onClick.AddListener(() => {
-			UICtrlManager.OpenBaseUI(new MainPanelCtrl(), () => { });
+			
+		});
+		_Btn.onClick.AddListener(() => {
+			SendMessageToCtrl("BtnonClick");
+			
 		});
 		_BackBtn.onClick.AddListener(() =>{
-			UICtrlManager.CloseTopBaseUI();
+			SendMessageToCtrl("BackBtnonClick");
+			
 		});
 		_HomeBtn.onClick.AddListener(() => {
-			UICtrlManager.RevokeToHomeBaseUI();
+			SendMessageToCtrl("HomeBtnonClick");
+			
 		});
 	}
 }

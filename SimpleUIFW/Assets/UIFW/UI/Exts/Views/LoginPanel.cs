@@ -6,7 +6,7 @@ public class LoginPanel : UIBase
     public override void OnInit()
     {
         ABtn.onClick.AddListener(() => {
-            UICtrlManager.OpenBaseUI(new MainPanelCtrl(), () => { });
+            SendMessageToCtrl("ClickLoginBtn");
         });
     }
     public override void OnForward()

@@ -22,10 +22,35 @@ public class GlobalEvent
         oneSender.SendMessage(eventType, pObj);
     }
 }
+public class StringKeySender
+{
+    private EventSender<String, object> sender = new EventSender<String, object>();
+    public void Clear()
+    {
+        sender.Clear();
+        sender = null;
+    }
+    public void AddListener(String eventType, Action<object> eventHandler)
+    {
+        sender.AddListener(eventType, eventHandler);
+    }
+    public void RemoveListener(String eventType, Action<object> eventHandler)
+    {
+        sender.RemoveListener(eventType, eventHandler);
+    }
+    public void SendMessage(String eventType, object pObj)
+    {
+        sender.SendMessage(eventType, pObj);
+    }
+}
 public class OneSender
 {
     private EventSender<Enum, object> sender = new EventSender<Enum, object>();
-
+    public void Clear()
+    {
+        sender.Clear();
+        sender = null;
+    }
     public void AddListener(Enum eventType, Action<object> eventHandler)
     {
         sender.AddListener(eventType, eventHandler);

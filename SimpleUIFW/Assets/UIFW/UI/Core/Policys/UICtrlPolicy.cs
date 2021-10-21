@@ -16,7 +16,7 @@ public class UICtrlPolicy
 	{
 		Flow flow = new Flow(1);
 		flow.AddStep(1, (pOnFinish) => {
-			pCtrl.OnInit();
+			pCtrl.DoInit();
 			pOnFinish.Invoke(true);
 		});
 		flow.AddStep(2, (pOnFinish) => {
@@ -62,7 +62,7 @@ public class UICtrlPolicy
 			UICtrlBase ctrl = ctrls[ctrls.Count - 1];
 			Flow flow = new Flow(2);
 			flow.AddStep(1, (pOnFinish) => {
-				ctrl.OnDispose();
+				ctrl.DoDispose();
 				pOnFinish.Invoke(true);
 			});
 			flow.AddStep(2, (pOnFinish) => {
