@@ -27,6 +27,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - UIPrefabs
+  - m_GUID: b9924b94b7ba83d4a8d9634ba68a6140
+    m_Address: Assets/_ABs/UIPrefabs/Sub1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPrefabs
+  - m_GUID: 63187055cc93e96498b177dc0c91b7ce
+    m_Address: Assets/_ABs/UIPrefabs/Sub2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPrefabs
+  - m_GUID: 8508c87df978fc945a84a63bd6b43de5
+    m_Address: Assets/_ABs/UIPrefabs/SubPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPrefabs
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ac75d4b4008ea904681c9e006a8c201e, type: 2}
   m_SchemaSet:

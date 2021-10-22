@@ -16,9 +16,16 @@ public class UICtrlPolicy: CtrlPolicyBase
 			pOnFinish.Invoke(true);
 		});
 		flow.AddStep(2, (pOnFinish) => {
-			pCtrl.OnPost(pOnFinish);
+			if (pOpenData != null && pOpenData.ctrlData != null)
+			{
+				pCtrl.OnSetData(pOpenData.ctrlData);
+			}
+			pOnFinish.Invoke(true);
 		});
 		flow.AddStep(3, (pOnFinish) => {
+			pCtrl.OnPost(pOnFinish);
+		});
+		flow.AddStep(4, (pOnFinish) => {
 			pCtrl.ResLoad((oGO) => {
 				if (oGO != null){
 					pOnFinish.Invoke(true);
@@ -29,12 +36,12 @@ public class UICtrlPolicy: CtrlPolicyBase
 			},SubRoot.transform);
 		});
 		//界面切前台
-		flow.AddStep(4, (pOnFinish) => {
+		flow.AddStep(5, (pOnFinish) => {
 			pCtrl.OnForward();
 			pOnFinish.Invoke(true);
 		});
 		//前面的顶层界面处理
-		flow.AddStep(5, (pOnFinish) => {
+		flow.AddStep(6, (pOnFinish) => {
 			var topCtrl = GetTopCtrl();
 			if (topCtrl != null && pOpenData != null)
 			{

@@ -48,5 +48,6 @@ public enum OpenType
 public class OpenData
 {
 	public OpenType OpenType = OpenType.None;
+	public Object ctrlData;
 
 }
