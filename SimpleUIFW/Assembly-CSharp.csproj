@@ -53,10 +53,12 @@
     <UnityVersion>2021.1.23f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\UIFW\UI\Exts\Views\SubPanel.cs" />
     <Compile Include="Assets\UIFW\ResSystem\TestGameAddressUpdate.cs" />
     <Compile Include="Assets\UIFW\UI\Exts\Ctrls\LoginPanelCtrl.cs" />
     <Compile Include="Assets\UIFW\UI\Exts\Test\Test.cs" />
     <Compile Include="Assets\UIFW\UI\Core\UICtrlManager.cs" />
+    <Compile Include="Assets\UIFW\UI\Exts\Ctrls\SubPanelCtrl.cs" />
     <Compile Include="Assets\UIFW\UI\Core\Policys\CtrlPolicyBase.cs" />
     <Compile Include="Assets\UIFW\UI\Exts\Views\MainPanel.cs" />
     <Compile Include="Assets\UIFW\UI\Core\View\UIBase.cs" />
@@ -65,20 +67,24 @@
     <Compile Include="Assets\UIFW\UI\Exts\Views\LoginPanel.cs" />
     <Compile Include="Assets\UIFW\UI\Core\Policys\UICtrlPolicy.cs" />
     <Compile Include="Assets\UIFW\UI\Core\Ctrls\UICtrlBase.cs" />
+    <Compile Include="Assets\UIFW\UI\Exts\UITools\BackBtn.cs" />
     <Compile Include="Assets\UIFW\WorkFlow\Flow.cs" />
     <Compile Include="Assets\UIFW\Event\GlobalEvent.cs" />
     <Compile Include="Assets\UIFW\ResSystem\AddressLoadManager.cs" />
     <Compile Include="Assets\UIFW\UI\Exts\Ctrls\MainPanelCtrl.cs" />
     <Compile Include="Assets\UIFW\UI\Exts\Views\EmptyPanel.cs" />
+    <Compile Include="Assets\UIFW\UI\Exts\UITools\NormalBtn.cs" />
     <Compile Include="Assets\UIFW\UI\Core\Policys\UICtrlPolicyQueue.cs" />
+    <Compile Include="Assets\UIFW\UI\Exts\UITools\HomeBtn.cs" />
     <Compile Include="Assets\UIFW\ResSystem\AddressLoader.cs" />
     <Compile Include="Assets\UIFW\UI\Core\Tools\UIBaseLoader.cs" />
     <Compile Include="Assets\UIFW\UI\Core\Tools\UIBaseLoaders.cs" />
-    <Compile Include="Assets\UIFW\UI\Exts\Views\SubPanel.cs" />
-    <Compile Include="Assets\UIFW\UI\Exts\Ctrls\SubPanelCtrl.cs" />
-    <Compile Include="Assets\UIFW\UI\Exts\UITools\HomeBtn.cs" />
-    <Compile Include="Assets\UIFW\UI\Exts\UITools\BackBtn.cs" />
-    <Compile Include="Assets\UIFW\UI\Exts\UITools\NormalBtn.cs" />
+    <Compile Include="Assets\UIFW\TimeLine\BaseBehaviour.cs" />
+    <Compile Include="Assets\UIFW\TimeLine\BaseAsset.cs" />
+    <Compile Include="Assets\UIFW\TimeLine\PositionAsset.cs" />
+    <Compile Include="Assets\UIFW\TimeLine\PositionBehaviour.cs" />
+    <Compile Include="Assets\UIFW\TimeLine\ScaleBehaviour.cs" />
+    <Compile Include="Assets\UIFW\TimeLine\ScaleAsset.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
