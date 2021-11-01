@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TimeLines
+  m_EditorClassIdentifier: 
+  m_GroupName: TimeLines
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e50ac02a4bcd852439cfad4b17681b9a
+  m_SerializeEntries:
+  - m_GUID: bdc561995b90c8d4fb22afc8ed1640e3
+    m_Address: Assets/_ABs/TimeLines/LoginPanelTimeline.playable
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - TimeLines
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ac75d4b4008ea904681c9e006a8c201e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1c916112ac9985348b4f24f00c441d00, type: 2}
+    - {fileID: 11400000, guid: f8fc517fe10620745914f1a78909a23b, type: 2}
