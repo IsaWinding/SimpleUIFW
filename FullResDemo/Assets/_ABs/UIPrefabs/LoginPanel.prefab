@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 224477508207332288}
   - component: {fileID: 556007770}
   - component: {fileID: 984035100}
+  - component: {fileID: 131093823}
   m_Layer: 5
   m_Name: LoginPanel
   m_TagString: Untagged
@@ -73,6 +74,22 @@ PlayableDirector:
     m_References:
     - 4d22193537a20a940bb3a69e800ad24c: {fileID: 1630659302977696}
     - a99d48232f74ca74cb20c176da8b1582: {fileID: 1630659302977696}
+--- !u!114 &131093823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043526171473932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e30b033b06ca1d40a0efd835d70295c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luaScript: {fileID: 0}
+  luaFilePath: UI/LuaTestScript
+  loadMode: 2
+  injections: []
 --- !u!1 &1136448746568168
 GameObject:
   m_ObjectHideFlags: 0

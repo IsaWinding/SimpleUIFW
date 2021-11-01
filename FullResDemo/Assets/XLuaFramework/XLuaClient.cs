@@ -16,6 +16,12 @@ public class XLuaClient : MonoBehaviour
         luaEnv.AddLoader(Loader);
         GameObject.DontDestroyOnLoad(this);
     }
+    public string LoaderString(string filePath)
+    {
+        var realFilePath = Application.dataPath + FileRoot + filePath + ".lua";
+        var string_ = System.IO.File.ReadAllText(realFilePath);
+        return string_;
+    }
     private byte[] Loader(ref string filePath)
     {
         var realFilePath = Application.dataPath + FileRoot + filePath + ".lua";

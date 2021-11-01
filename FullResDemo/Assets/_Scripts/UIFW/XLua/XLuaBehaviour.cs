@@ -12,13 +12,19 @@ public class Injection
     public string name;
     public GameObject value;
 }
-
+public enum LuaLoadMode
+{
+    TextAsset = 1,
+    FilePath = 2,
+}
 [LuaCallCSharp]
 public class XLuaBehaviour : MonoBehaviour
 {
     public TextAsset luaScript;
+    public string luaFilePath;
+    public LuaLoadMode loadMode = LuaLoadMode.FilePath;
     public Injection[] injections;
-
+    
     internal static LuaEnv luaEnv = new LuaEnv(); //all lua behaviour shared one luaenv only!
     internal static float lastGCTime = 0;
     internal const float GCInterval = 1;//1 second 
@@ -31,8 +37,14 @@ public class XLuaBehaviour : MonoBehaviour
 
     private string GetLuaText()
     {
-
-        return null;
+        if (loadMode == LuaLoadMode.FilePath)
+        {
+            return XLuaClient.Instance.LoaderString(luaFilePath);
+        }
+        else 
+        {
+            return luaScript.text;
+        }
     }
     void Awake()
     {
@@ -48,7 +60,8 @@ public class XLuaBehaviour : MonoBehaviour
         {
             scriptEnv.Set(injection.name, injection.value);
         }
-        luaEnv.DoString(luaScript.text, "LuaTestScript", scriptEnv);
+        var stringText = GetLuaText();
+        luaEnv.DoString(stringText, "LuaTestScript", scriptEnv);
 
         Action luaAwake = scriptEnv.Get<Action>("awake");
         scriptEnv.Get("start", out luaStart);
